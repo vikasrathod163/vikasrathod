@@ -37,9 +37,17 @@
 .button-greeting-div {
   display: flex;
   margin-top: 40px;
+ 
 }
 .download-link-button {
   text-decoration: none;
+}
+
+.profileimg{
+    border-radius: 50%;
+    width: 400px;
+    aspect-ratio: 1;
+    margin-left: 70px;
 }
 
 .greeting-text {
@@ -52,10 +60,12 @@
   font-size: 30px;
   line-height: 40px;
 }
+.greeting-image-div{
+  justify-items: center;
+}
 
 .greeting-image-div > img {
   max-width: 100%;
-  height: auto;
 }
 
 .wave-emoji {
@@ -99,6 +109,16 @@
     font-size: 20px;
   }
 }
+@media (max-width:1080px) {
+  .profileimg{
+    margin-left: 30px;
+  }
+}
+@media (max-width:1029px) {
+  .profileimg{
+    margin-left: 10px;
+  }
+}
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -118,7 +138,21 @@
   .greeting-image-div {
     height: 256px;
   }
+  .profileimg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
 }
+
+@media (max-width: 440px) {
+  .button-greeting-div{
+    flex-direction: column;
+  }
+}
+
+
 
 @media (max-width: 320px) {
   .main {
