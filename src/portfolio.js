@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1XLpzW3R21XBB6D3OM5gbtZ3dvUOkEkZO/edit?usp=sharing&ouid=103626706343829916405&rtpof=true&sd=true", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1NvoBONvkwT03jSLktm2eJSFXvBt7xVe8CNoHa4ltEQs/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -148,7 +148,7 @@ const educationInfo = {
       duration: "November 2022 - June 2025",
       desc: "Participated in the research of IEEE and published 1 paper.",
       descBullets: [
-        "CGPA : 8.55"
+        "CGPA : 8.67"
         // ,
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
